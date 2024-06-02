@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./pages/home-page/homePage.css" />
     <link rel="stylesheet" href="./components/header/header.css" />
+    <link rel="stylesheet" href="./components/contentBlock/contentBlock.css" />
   </head>
   <body>
     <div class="homePage-container">
@@ -26,14 +27,21 @@
         </nav>
       </header>
       <main class="homePage">
-        <div class="homePage-contentBlock">
+        <div
+          class="contentBlock edgeContent"
+          style="
+            background-image: url('./assets/images/BusinessStadiumCentral.jpg');
+          "
+        >
           <div class="contentBlock-description">
             <h2>New generation town for generations to come</h2>
             <p>Real estate builders, project managers in over 15+ countries</p>
           </div>
           <div class="contentBlock-stats">
-            <h2 class="stats-number">150</h2>
-            <p>Successful projects</p>
+            <div class="statistics">
+              <h2 class="stats-number large">150</h2>
+              <p>Successful projects</p>
+            </div>
           </div>
         </div>
         <section class="homePage-infoBlocks-container">
@@ -53,7 +61,7 @@
         </section>
         <section class="homePage-ourProjects">
           <h2>Our Projects</h2>
-          <div class="homePage-contentBlock projectCarousel">
+          <div class="contentBlock projectCarousel">
             <h2 class="project-title">Metropolitan Palace</h2>
             <p class="project-description">
               Glamour estate miracle that showcases the connection between

@@ -1,0 +1,74 @@
+.contentBlock {
+  height: 60vh;
+  padding: 3rem 3rem;
+  border-radius: 2rem;
+
+  position: relative;
+  z-index: 1;
+
+  background-color: var(--brown__main);
+  background-position: center;
+  background-size: cover;
+
+  &.edgeContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "description description"
+      ". stats";
+
+    & .contentBlock-description {
+      grid-area: description;
+      display: flex;
+      flex-direction: column;
+
+      gap: 15px;
+
+      & h2 {
+        font-size: 2.5rem;
+        color: var(--white__main);
+      }
+
+      & p {
+        font-size: 1.25rem;
+        color: var(--white__main);
+      }
+    }
+
+    & .contentBlock-stats {
+      grid-area: stats;
+      display: flex;
+      justify-self: end;
+      align-self: end;
+
+      & .statistics {
+        text-align: end;
+
+        & p {
+          color: var(--white__main);
+          font-size: 2rem;
+          max-width: 200px;
+        }
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      border-radius: inherit;
+      background-color: var(--brown__main);
+      opacity: 0.65;
+      z-index: -1;
+
+      & :hover {
+        background-color: red;
+      }
+    }
+  }
+}

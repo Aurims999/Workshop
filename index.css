@@ -25,6 +25,17 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+
+  &.large {
+    font-size: 4.5rem;
+    color: var(--white__main);
+  }
+}
+
 a {
   font-size: 1.1rem;
   font-weight: bold;
