@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./pages/home-page/homePage.css" />
     <link rel="stylesheet" href="./components/header/header.css" />
     <link rel="stylesheet" href="./components/contentBlock/contentBlock.css" />
+    <link rel="stylesheet" href="./components/infoBlocks/infoBlocks.css" />
+    <link rel="stylesheet" href="./components/footer/footer.css" />
   </head>
   <body>
     <div class="homePage-container">
@@ -45,19 +47,40 @@
           </div>
         </div>
         <section class="homePage-infoBlocks-container">
-          <div class="infoBlock">
-            <p>1M+ Happy Customers</p>
+          <div class="infoBlock icons" style="background-color: #ebe8e3">
+            <p>
+              1M+<br />
+              Happy Customers
+            </p>
+            <img src="./assets/visuals/customers.png" alt="LUXE Customers" />
           </div>
-          <div class="infoBlock">
-            <p>15+ years Experience</p>
+          <div
+            class="infoBlock overlay black"
+            style="
+              background-image: url('./assets/images/business-stadium-north.jpg');
+            "
+          >
+            <p>
+              15+ years<br />
+              Experience
+            </p>
           </div>
-          <div class="infoBlock">
+          <div
+            class="infoBlock overlay brown"
+            style="
+              background-image: url('./assets/images/businessAgreement.jpg');
+            "
+          >
             <p>Trusted Business Partners</p>
           </div>
         </section>
         <section class="homePage-partners">
           <h2>Trusted by</h2>
-          <img src="" alt="Partner Logo display" class="partners-logos" />
+          <img
+            src="./assets/images/LUXE-Partners.png"
+            alt="Partner Logo display"
+            class="partners-logos"
+          />
         </section>
         <section class="homePage-ourProjects">
           <h2>Our Projects</h2>
@@ -100,14 +123,14 @@
           </div>
         </section>
       </main>
-      <footer>
-        <p>
-          Áll the legal information could be stored here, about us and all the
-          other navigation
-        </p>
-        <img src="" alt="LUXE Icon" />
-        <p>Zenigrow'24</p>
-      </footer>
     </div>
+    <footer>
+      <p class="legalInfo">
+        Áll the legal information could be stored here, about us and all the
+        other navigation
+      </p>
+      <img src="./assets/icons/LUXE__White.png" alt="LUXE Icon" />
+      <p>Zenigrow'24</p>
+    </footer>
   </body>
 </html>

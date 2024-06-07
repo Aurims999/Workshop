@@ -1,6 +1,8 @@
 .contentBlock {
   height: 60vh;
   padding: 3rem 3rem;
+  margin-bottom: 1.2rem;
+
   border-radius: 2rem;
 
   position: relative;
@@ -65,10 +67,6 @@
       background-color: var(--brown__main);
       opacity: 0.65;
       z-index: -1;
-
-      & :hover {
-        background-color: red;
-      }
     }
   }
 }

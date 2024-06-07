@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  padding: 1.5rem 0;
+
+  margin-top: 2rem;
+
+  background-color: var(--brown__main);
+
+  & img {
+    height: 25px;
+  }
+
+  & p {
+    font-size: 14px;
+    color: var(--white__main);
+
+    &.legalInfo {
+      width: fit-content;
+      padding: 0 3rem 1rem 3rem;
+      margin: 0.5rem 0 1rem 0;
+      border-bottom: 1px solid var(--white__main);
+
+      text-align: center;
+    }
+  }
+}
