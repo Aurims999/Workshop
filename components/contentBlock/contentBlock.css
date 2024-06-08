@@ -69,4 +69,57 @@
       z-index: -1;
     }
   }
+
+  &.projectCarousel {
+    padding: 0;
+    background-image: url("./../../assets/images/projects/MetropolitanPalace.jpg");
+    object-fit: cover;
+    object-position: center;
+
+    & .projectCarousel-description {
+      width: 50%;
+      height: 100%;
+      padding: 2rem 3rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+
+      border-top-left-radius: inherit;
+      border-bottom-left-radius: inherit;
+      background: linear-gradient(
+        90deg,
+        rgba(100, 79, 65, 1) 0%,
+        rgba(180, 157, 151, 0.95) 51%,
+        rgba(189, 174, 169, 0.92) 83%,
+        rgba(255, 255, 255, 0.01) 100%
+      );
+      & h2,
+      p {
+        color: var(--white__main);
+      }
+
+      & h2 {
+        font-size: 3rem;
+      }
+
+      & p {
+        font-size: 1.25rem;
+        width: 90%;
+      }
+
+      & .project-location {
+        display: flex;
+        gap: 1rem;
+
+        margin: 2rem 0;
+
+        & img {
+          width: 25px;
+          height: auto;
+        }
+      }
+    }
+  }
 }

@@ -42,3 +42,30 @@ a {
   font-size: 1.1rem;
   font-weight: bold;
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+
+  &.styled {
+    padding: 0.75rem 2.5rem;
+    border-radius: 10px;
+
+    background-color: var(--black__main);
+
+    color: var(--white__main);
+    font-weight: bold;
+    text-transform: capitalize;
+
+    transition: 0.25s ease-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      background-color: var(--purple__dark);
+    }
+
+    &:active {
+      background-color: var(--brown__main);
+    }
+  }
+}

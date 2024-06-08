@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./components/contentBlock/contentBlock.css" />
     <link rel="stylesheet" href="./components/infoBlocks/infoBlocks.css" />
     <link rel="stylesheet" href="./components/contactBlock/contactBlock.css" />
+    <link
+      rel="stylesheet"
+      href="./components/navigationBar/navigationBar.css"
+    />
     <link rel="stylesheet" href="./components/footer/footer.css" />
   </head>
   <body>
@@ -25,7 +29,6 @@
             <li><a href="#">Projects</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Career</a></li>
-            <li><a href="#">Reports</a></li>
           </ul>
         </nav>
       </header>
@@ -86,17 +89,38 @@
         <section class="homePage-ourProjects">
           <h2>Our Projects</h2>
           <div class="contentBlock projectCarousel">
-            <h2 class="project-title">Metropolitan Palace</h2>
-            <p class="project-description">
-              Glamour estate miracle that showcases the connection between
-              modernistic urban style and mother nature
-            </p>
-            <div class="project-location">
-              <img src="" alt="Decorative Loaction Icon" class="icon" />
-              <p>Kaunas, Savanoriu pr. 178</p>
-            </div>
-            <div class="projectCarousel-navigationBar">
-              NAVIGATION BUBBLES HERE (NEPAMIRSK RODYKLIU)
+            <div class="projectCarousel-description">
+              <div class="description-text">
+                <h2 class="project-title">Metropolitan Palace</h2>
+                <p class="project-description">
+                  Glamour estate miracle that showcases the connection between
+                  modernistic urban style and mother nature
+                </p>
+                <div class="project-location">
+                  <img
+                    src="./assets/icons/location__white.png"
+                    alt="Decorative Location Icon"
+                    class="icon"
+                  />
+                  <p>Kaunas, Savanoriu pr. 178</p>
+                </div>
+                <button class="styled">Read more</button>
+              </div>
+              <div class="projectCarousel-navigationBar">
+                <button class="navigationArrow back">
+                  <img src="./assets/icons/arrow__white.png" alt="" />
+                </button>
+                <ul>
+                  <li><button></button></li>
+                  <li><button></button></li>
+                  <li><button></button></li>
+                  <li class="active"><button></button></li>
+                  <li><button></button></li>
+                </ul>
+                <button class="navigationArrow forward">
+                  <img src="./assets/icons/arrow__white.png" alt="" />
+                </button>
+              </div>
             </div>
           </div>
         </section>
@@ -139,10 +163,7 @@
       </main>
     </div>
     <footer>
-      <p class="legalInfo">
-        Áll the legal information could be stored here, about us and all the
-        other navigation
-      </p>
+      <p class="legalInfo">Copyright © 2010-2024 LUXE. All rights reserved.</p>
       <img src="./assets/icons/LUXE__White.png" alt="LUXE Icon" />
       <p>Zenigrow'24</p>
     </footer>

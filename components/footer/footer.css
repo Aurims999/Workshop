@@ -25,6 +25,7 @@ footer {
       border-bottom: 1px solid var(--white__main);
 
       text-align: center;
+      opacity: 0.5;
     }
   }
 }

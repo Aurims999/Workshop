@@ -1,0 +1,57 @@
+.projectCarousel-navigationBar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+
+  height: auto;
+
+  & button {
+    &.navigationArrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      transition: 0.15s ease-in-out;
+
+      & img {
+        height: 20px;
+      }
+
+      &.forward {
+        transform: rotate(180deg);
+
+        &:hover {
+          transform: scale(1.25) rotate(180deg);
+        }
+      }
+
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+
+  & ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    & li {
+      height: 15px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      cursor: pointer;
+
+      background-color: var(--white__main);
+
+      &.active {
+        background-color: var(--purple__dark);
+        transform: scale(2);
+      }
+    }
+  }
+}
