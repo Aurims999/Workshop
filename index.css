@@ -19,6 +19,24 @@
   color: var(--black__main);
 }
 
+.container {
+  margin: 0px 4.5rem;
+
+  & .homePage-partners {
+    margin: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    & .partners-logos {
+      width: 60%;
+    }
+  }
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 900;

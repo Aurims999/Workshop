@@ -5,8 +5,11 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  & img {
+  & a {
     height: 30%;
+    & img {
+      height: 100%;
+    }
   }
 
   & nav {
