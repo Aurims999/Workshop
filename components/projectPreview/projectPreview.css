@@ -1,0 +1,58 @@
+.projectPreview {
+  height: 450px;
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white__main);
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 15px;
+
+  position: relative;
+  z-index: 2;
+
+  transition: 0.15s ease-in-out;
+
+  text-decoration: none;
+
+  & h3 {
+    z-index: 3;
+    color: var(--white__main);
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+
+    background: linear-gradient(
+      0deg,
+      rgba(100, 79, 65, 1) 0%,
+      rgba(180, 157, 151, 1) 53%,
+      rgba(189, 174, 169, 0.756827731092437) 73%,
+      rgba(255, 255, 255, 0.01) 100%
+    );
+    opacity: 0.65;
+    z-index: 1;
+  }
+}
