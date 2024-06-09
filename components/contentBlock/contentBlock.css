@@ -136,12 +136,11 @@
 
   &.projectCarousel {
     padding: 0;
-    background-image: url("./../../assets/images/projects/MetropolitanPalace.jpg");
     object-fit: cover;
     object-position: center;
 
     & .projectCarousel-description {
-      width: 50%;
+      width: 60%;
       height: 100%;
       padding: 2rem 3rem;
 
@@ -165,12 +164,14 @@
       }
 
       & h2 {
+        width: 80%;
         font-size: 3rem;
       }
 
       & p {
         font-size: 1.25rem;
-        width: 90%;
+        width: 80%;
+        text-align: justify;
       }
 
       & .project-location {
