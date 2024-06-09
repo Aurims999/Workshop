@@ -1,0 +1,30 @@
+.listOfPeople {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  gap: 30px;
+
+  margin-bottom: 40px;
+
+  & .userBlock {
+    height: fit-content;
+    & img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      margin-bottom: 10px;
+      border-radius: 10%;
+
+      object-fit: cover;
+      object-position: center;
+
+      filter: grayscale(0.2);
+      transition: 0.15s ease-in;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+        filter: grayscale(0);
+      }
+    }
+  }
+}
