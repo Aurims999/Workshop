@@ -1,0 +1,44 @@
+{
+  "officers": [
+    {
+      "name": "Jonathan",
+      "surname": "Smith",
+      "role": "Executive Vice President and Chief Commercial Officer",
+      "description": "Jonathan Smith is executive vice president and chief commercial officer at LUXE. He is responsible for the sales strategy, execution and revenue growth of the company’s commercial business, which spans enterprise, public sector, small and medium businesses, services, developer and partner communities in more than 120 regional and national subsidiaries globally.",
+      "image": "officers/officer4.png",
+      "projects": []
+    },
+    {
+      "name": "Rebecca",
+      "surname": "Pountary",
+      "role": "Executive Vice President and Chief Human Resources Officer",
+      "description": "As executive vice president and chief human resources officer, Rebecca Pountary empowers 4500+ global employees to achieve LUXE’s mission. In her role, she focuses on making LUXE an exceptional place for employees to work, and ensures that the company is creating a culture that attracts and inspires the world’s most passionate talent. \n Pountary previously served as corporate vice president of LUXE Services, a team dedicated to helping businesses and consumers maximize the value of their investment in LUXE. Prior to joining LUXE in 2003, she was a partner at McKinsey & Co. and a development officer at Oracle Corp.",
+      "image": "officers/officer1.jpg",
+      "projects": []
+    },
+    {
+      "name": "Michael",
+      "surname": "Johnson",
+      "role": "Chief Financial Officer",
+      "description": "Michael Johnson is the Chief Financial Officer at LUXE. He oversees the company's financial operations, including accounting, investor relations, tax, and treasury.",
+      "image": "officers/officer3.jpg",
+      "projects": []
+    },
+    {
+      "name": "Laura",
+      "surname": "Davis",
+      "role": "Chief Technology Officer",
+      "description": "Laura Davis is the Chief Technology Officer at LUXE. She is responsible for the technology strategy and execution, ensuring the company remains at the forefront of innovation.",
+      "image": "officers/officer2.jpg",
+      "projects": []
+    },
+    {
+      "name": "Emily",
+      "surname": "Clark",
+      "role": "Chief Marketing Officer",
+      "description": "Emily Clark is the Chief Marketing Officer at LUXE. She leads the global marketing strategy, driving brand awareness and customer engagement across all channels.",
+      "image": "officers/officer5.png",
+      "projects": []
+    }
+  ]
+}

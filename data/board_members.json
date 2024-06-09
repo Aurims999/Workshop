@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "John",
+      "surname": "Doe",
+      "role": "Chairman of the Board",
+      "description": "John Doe is the Chairman of the Board at LUXE. He provides strategic guidance and leadership to the board of directors.",
+      "image": "board_members/board_member1.png",
+      "projects": []
+    },
+    {
+      "name": "Jane",
+      "surname": "Smith",
+      "role": "Board Member",
+      "description": "Jane Smith is a Board Member at LUXE. She brings extensive experience in finance and corporate governance to the board.",
+      "image": "board_members/board_member2.png",
+      "projects": []
+    },
+    {
+      "name": "Michael",
+      "surname": "Bonson",
+      "role": "Board Member",
+      "description": "Michael Bonson is a Board Member at LUXE. He is an industry expert in technology and innovation.",
+      "image": "board_members/board_member3.png",
+      "projects": []
+    },
+    {
+      "name": "Emily",
+      "surname": "White",
+      "role": "Board Member",
+      "description": "Emily White is a Board Member at LUXE. She specializes in marketing and brand management.",
+      "image": "board_members/board_member4.png",
+      "projects": []
+    },
+    {
+      "name": "David",
+      "surname": "Brown",
+      "role": "Board Member",
+      "description": "David Brown is a Board Member at LUXE. He brings extensive experience in corporate law and compliance.",
+      "image": "board_members/board_member5.png",
+      "projects": []
+    },
+    {
+      "name": "Sarah",
+      "surname": "Jones",
+      "role": "Board Member",
+      "description": "Sarah Jones is a Board Member at LUXE. She has a background in environmental sustainability and corporate responsibility.",
+      "image": "board_members/board_member6.png",
+      "projects": []
+    },
+    {
+      "name": "Robert",
+      "surname": "Martinez",
+      "role": "Board Member",
+      "description": "Robert Martinez is a Board Member at LUXE. He has expertise in international business development.",
+      "image": "board_members/board_member7.png",
+      "projects": []
+    },
+    {
+      "name": "Rachel",
+      "surname": "Taylor",
+      "role": "Board Member",
+      "description": "Rachel Taylor is a Board Member at LUXE. She is an expert in corporate finance and investment.",
+      "image": "board_members/board_member8.png",
+      "projects": []
+    },
+    {
+      "name": "Daniel",
+      "surname": "Lee",
+      "role": "Board Member",
+      "description": "Daniel Lee is a Board Member at LUXE. He brings expertise in mergers and acquisitions.",
+      "image": "board_members/board_member9.png",
+      "projects": []
+    }
+  ]
+}

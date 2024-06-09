@@ -1,0 +1,88 @@
+{
+  "managers": [
+    {
+      "name": "Benedict",
+      "surname": "Fraule",
+      "role": "Project Manager (UK)",
+      "description": "John Doe is the Sales Manager for the UK region at LUXE. He oversees sales operations and develops strategies to drive growth in the UK market.",
+      "image": "managers/manager_uk.png",
+      "projects": [
+        {
+          "name": "Riverside Heights",
+          "description": "Riverside Heights is a luxurious residential project located on the banks of the Thames River. With breathtaking views and state-of-the-art amenities, it offers the epitome of modern living."
+        },
+        {
+          "name": "Skylight Tower",
+          "description": "Skylight Tower is a prestigious commercial development in the heart of Manchester. With its innovative design and prime location, it promises to be a landmark destination for businesses."
+        },
+        {
+          "name": "Green Valley Estates",
+          "description": "Green Valley Estates is a mixed-use development project in Birmingham, offering a harmonious blend of residential, commercial, and recreational spaces. It aims to create a vibrant community environment."
+        }
+      ]
+    },
+    {
+      "name": "Anna",
+      "surname": "Kovacs",
+      "role": "Project Manager (HU)",
+      "description": "Anna Kovacs is the Marketing Manager for the Hungary region at LUXE. She leads marketing initiatives and promotional activities in Hungary.",
+      "image": "managers/manager_hungary.png",
+      "projects": [
+        {
+          "name": "Emerald City Center",
+          "description": "Emerald City Center is a visionary redevelopment project in Budapest, redefining the urban landscape with its innovative design and sustainable features."
+        },
+        {
+          "name": "Golden Meadows",
+          "description": "Golden Meadows is a premium residential complex in Debrecen, offering an exclusive living experience amidst lush greenery and modern conveniences."
+        },
+        {
+          "name": "Sunrise Plaza",
+          "description": "Sunrise Plaza is a dynamic commercial plaza development in Szeged, designed to be a hub of activity and commerce in the city."
+        }
+      ]
+    },
+    {
+      "name": "Andrei",
+      "surname": "Popescu",
+      "role": "Project Manager (RO)",
+      "description": "Andrei Popescu is the Operations Manager for the Romania region at LUXE. He ensures smooth operations and efficient processes in Romania.",
+      "image": "managers/manager_romania.png",
+      "projects": [
+        {
+          "name": "Skyline Residences",
+          "description": "Skyline Residences is a modern mixed-use complex in Bucharest, offering luxurious residences, premium office spaces, and vibrant retail outlets."
+        },
+        {
+          "name": "Historic District Revitalization",
+          "description": "The Historic District Revitalization project aims to preserve and enhance the architectural heritage of downtown Bucharest while introducing modern amenities and facilities."
+        },
+        {
+          "name": "Riverfront Promenade",
+          "description": "Riverfront Promenade is a transformative urban renewal project along the banks of the Dâmbovița River, creating a vibrant public space for recreation and leisure."
+        }
+      ]
+    },
+    {
+      "name": "Linas",
+      "surname": "Petrauskas",
+      "role": "Project Manager (LT)",
+      "description": "Linas Petrauskas is the Finance Manager for the Lithuania region at LUXE. He oversees financial operations and budgeting in Lithuania.",
+      "image": "managers/manager_lithuania.png",
+      "projects": [
+        {
+          "name": "Azure Heights",
+          "description": "Azure Heights is an exclusive residential development in Vilnius, offering panoramic views of the city skyline and the surrounding natural landscapes."
+        },
+        {
+          "name": "Innova Tower",
+          "description": "Innova Tower is a state-of-the-art office complex in Kaunas, designed to foster innovation and collaboration among businesses."
+        },
+        {
+          "name": "Harmony Park",
+          "description": "Harmony Park is a mixed-use project in Klaipėda, featuring residential apartments, retail outlets, and recreational facilities, all within a harmonious green setting."
+        }
+      ]
+    }
+  ]
+}
