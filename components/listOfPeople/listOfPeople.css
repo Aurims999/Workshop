@@ -25,5 +25,23 @@
         filter: brightness(105%);
       }
     }
+
+    & .frame {
+      height: fit-content;
+      padding: 3rem;
+      margin-bottom: 1.25rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background-color: var(--brown__light);
+      border-radius: 15px;
+
+      & img {
+        height: 100%;
+        aspect-ratio: 1/1;
+      }
+    }
   }
 }
