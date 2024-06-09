@@ -1,0 +1,87 @@
+.jobOffer {
+  margin-top: 50px;
+
+  & h2 {
+    color: var(--brown__main);
+  }
+
+  & .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    padding-top: 1rem;
+
+    border-top: 2px solid var(--brown__main);
+
+    & .descriptionBlock {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+
+      gap: 30px;
+
+      & span {
+        font-weight: 500;
+      }
+
+      & ul {
+        & li {
+          width: 85%;
+          margin-left: 20px;
+          margin-bottom: 10px;
+
+          text-align: justify;
+        }
+      }
+    }
+
+    & section.skills {
+      width: 50%;
+
+      & h3 {
+        border-bottom: 2px solid var(--brown__main);
+        margin-bottom: 15px;
+      }
+
+      & .skillsContainer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row: 1fr;
+        gap: 20px;
+
+        & .skill {
+          width: 100%;
+          text-align: center;
+
+          & .icon {
+            width: 100%;
+            aspect-ratio: 1/1;
+            margin-bottom: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: var(--brown__main);
+            border-radius: 15px;
+
+            & img {
+              height: 50px;
+              aspect-ratio: 1/1;
+            }
+
+            transition: 0.15s ease-in-out;
+
+            &:hover {
+              transform: scale(1.05);
+              background-color: var(--purple__dark);
+            }
+          }
+        }
+      }
+    }
+  }
+}
