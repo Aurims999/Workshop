@@ -1,0 +1,67 @@
+{
+  "architects": [
+    {
+      "name": "Sophie",
+      "surname": "Williams",
+      "role": "Lead Architect",
+      "description": "Sophie Williams is the Lead Architect at LUXE. With a passion for innovative design and sustainable architecture, she leads the architectural team in creating iconic structures that blend functionality with aesthetic appeal.",
+      "image": "architects/architect_lead.png",
+      "projects": [
+        {
+          "name": "Cityscape Towers",
+          "description": "Cityscape Towers is a landmark residential and commercial complex in the heart of London. Designed by Sophie Williams, it features sleek, modern architecture and offers panoramic views of the city skyline."
+        },
+        {
+          "name": "Green Living Community",
+          "description": "The Green Living Community is a sustainable residential development in Bristol, designed to minimize environmental impact while providing residents with a high quality of life. Sophie Williams' design integrates green spaces and eco-friendly features."
+        },
+        {
+          "name": "Urban Renewal Project",
+          "description": "Sophie Williams is leading an urban renewal project in Manchester, revitalizing neglected areas and transforming them into vibrant, livable spaces. Her design philosophy focuses on community engagement and social impact."
+        }
+      ]
+    },
+    {
+      "name": "Daniel",
+      "surname": "Smith",
+      "role": "Senior Architect",
+      "description": "Daniel Smith is a Senior Architect at LUXE. With years of experience in architectural design and project management, he brings a blend of creativity and technical expertise to every project.",
+      "image": "architects/architect_senior.png",
+      "projects": [
+        {
+          "name": "Cultural Center Expansion",
+          "description": "Daniel Smith is leading the expansion of a cultural center in Edinburgh, preserving its historic charm while incorporating modern facilities for arts and entertainment."
+        },
+        {
+          "name": "Smart City Initiative",
+          "description": "As part of a smart city initiative in Glasgow, Daniel Smith is designing innovative urban solutions that enhance sustainability, connectivity, and quality of life for residents."
+        },
+        {
+          "name": "Mixed-Use Development",
+          "description": "Daniel Smith's latest project is a mixed-use development in Aberdeen, blending residential, commercial, and recreational spaces to create a vibrant urban hub."
+        }
+      ]
+    },
+    {
+      "name": "Emma",
+      "surname": "Jones",
+      "role": "Junior Architect",
+      "description": "Emma Jones is a Junior Architect at LUXE, passionate about exploring new design concepts and pushing the boundaries of architectural innovation.",
+      "image": "architects/architect_junior.png",
+      "projects": [
+        {
+          "name": "Coastal Retreat",
+          "description": "Emma Jones is designing a coastal retreat in Brighton, drawing inspiration from the natural surroundings to create a tranquil and harmonious living environment."
+        },
+        {
+          "name": "Mixed-Use Complex",
+          "description": "Emma Jones is part of the team working on a mixed-use complex in Cambridge, where modern architecture meets historic charm to create a dynamic urban space."
+        },
+        {
+          "name": "Sustainable Housing Project",
+          "description": "Emma Jones is contributing to a sustainable housing project in Oxford, incorporating green building techniques and energy-efficient design principles."
+        }
+      ]
+    }
+  ]
+}

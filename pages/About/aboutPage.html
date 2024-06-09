@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXE</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="../../components/header/header.css" />
+    <link
+      rel="stylesheet"
+      href="../../components/contentBlock/contentBlock.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../components/contactBlock/contactBlock.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./../../components/listOfPeople/listOfPeople.css"
+    />
+    <link rel="stylesheet" href="../../components/footer/footer.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../../index.html">
+          <img
+            class="logo"
+            src="../../assets/icons/LUXE__Black.png"
+            alt="LUXE logo"
+          />
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="/pages/Projects/projectsPage.html">Projects</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="/pages/Career/careerPage.html">Career</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="homePage">
+        <div
+          class="contentBlock stats"
+          style="background-image: url('../../assets/images/groupPhoto.jpg')"
+        >
+          <h2>LUXE team</h2>
+          <div class="statistics">
+            <div class="statBlock teamSize">
+              <img
+                src="../../assets/icons/team__white.png"
+                alt=""
+                class="icon"
+              />
+              <h2>4526</h2>
+              <p>Employees</p>
+            </div>
+            <div class="statBlock offices">
+              <img
+                src="../../assets/icons/globe__white.png"
+                alt=""
+                class="icon"
+              />
+              <h2>35</h2>
+              <p>Offices around the globe</p>
+            </div>
+            <div class="statBlock performance">
+              <img
+                src="../../assets/icons/diagram__white.png"
+                alt=""
+                class="icon"
+              />
+              <h2>15%</h2>
+              <p>Annual growth each year</p>
+            </div>
+          </div>
+        </div>
+        <h2>Executive Officers</h2>
+        <div class="listOfPeople" id="executiveOfficers"></div>
+        <h2>Board Members</h2>
+        <div class="listOfPeople" id="boardMembers"></div>
+        <h2>Regional Managers</h2>
+        <div class="listOfPeople" id="managers"></div>
+        <h2>Global Architects</h2>
+        <div class="listOfPeople" id="architects"></div>
+      </main>
+    </div>
+    <footer>
+      <p class="legalInfo">Copyright © 2010-2024 LUXE. All rights reserved.</p>
+      <img src="../../assets/icons/LUXE__White.png" alt="LUXE Icon" />
+      <p>Zenigrow'24</p>
+    </footer>
+  </body>
+  <script
+    type="module"
+    src="./../../components/listOfPeople/listOfPeople.js"
+  ></script>
+</html>
